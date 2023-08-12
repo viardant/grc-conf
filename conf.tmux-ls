@@ -1,0 +1,14 @@
+# Session Name - Matches the session name, up to the first semi-colon
+regexp=^([^:]+)\b
+colour=bold green
+=======
+# Created Time - Colorizes the creation time, differentiating between the date and time
+regexp=(?<=\()(created)\s+([\w]{3}\s+[\w]{3}\s+\d+)\s+(\d{2}:\d{2}:\d{2}\s+\d{4})(?=\))
+colour=unchanged,italic yellow,italic blue,italic magenta
+# regexp=(?<=\(created)[\w]{3}\s[\w]{3}\s
+# regexp=(?<=\(created)\s+[\w]{3}\s+[\w]{3}\s+\d+\s+
+# colour=yellow
+=======
+# Attached - Matches the word 'attached' between parentheses
+regexp=(?<=\()attached(?=\))
+colour=bold cyan
