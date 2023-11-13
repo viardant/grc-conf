@@ -5,6 +5,7 @@ colour=bold green
 # Created Time - Colorizes the creation time, differentiating between the date and time
 regexp=(?<=\()(created)\s+([\w]{3}\s+[\w]{3}\s+\d+)\s+(\d{2}:\d{2}:\d{2}\s+\d{4})(?=\))
 colour=unchanged,italic yellow,italic blue,italic magenta
+# colour=unchanged,yellow,blue,magenta
 # regexp=(?<=\(created)[\w]{3}\s[\w]{3}\s
 # regexp=(?<=\(created)\s+[\w]{3}\s+[\w]{3}\s+\d+\s+
 # colour=yellow
